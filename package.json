@@ -43,6 +43,7 @@
   ],
   "packageManager": "yarn@3.4.1",
   "dependencies": {
-    "@backpackapp-io/react-native-toast": "^0.10.0"
+    "@backpackapp-io/react-native-toast": "^0.10.0",
+    "expo": "^49.0.13"
   }
 }

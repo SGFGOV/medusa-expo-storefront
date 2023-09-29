@@ -21,13 +21,31 @@
       "distribution": "internal",
       "ios": {
         "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "apk"
       }
     },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
     "production": {
+      "env":{
+        "EXPO_PUBLIC_MEDUSA_BACKEND_URL":"https://alpha.sourcegoodfood.com"
+      },
       "ios": {
         "resourceClass": "m-medium"
+      },
+      "android": {
+
       }
     }
+    
   },
   "submit": {
     "production": {}

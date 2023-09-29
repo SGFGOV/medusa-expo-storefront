@@ -1,3 +1,12 @@
 {
-  "expo": {}
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "618d8248-27a8-4531-8f89-ca5fc39212ab"
+      }
+    },
+    "android": {
+      "package": "com.sourcegoodfood.storefront"
+    }
+  }
 }

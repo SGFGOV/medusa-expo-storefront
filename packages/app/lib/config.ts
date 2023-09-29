@@ -2,7 +2,7 @@ import Medusa from '@medusajs/medusa-js'
 import { QueryClient } from 'react-query'
 
 // Defaults to standard port for Medusa server
-let MEDUSA_BACKEND_URL = 'http://localhost:9000'
+let MEDUSA_BACKEND_URL = process.env.EXPO_PUBLIC_MEDUSA_BACKEND_URL||'https://localhost:9000'
 // let MEDUSA_BACKEND_URL = 'http://universal-medusa-server.ngrok.io'
 
 //TODO: setup .env config for monorepo

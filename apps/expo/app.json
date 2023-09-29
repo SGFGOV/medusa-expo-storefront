@@ -10,7 +10,10 @@
     ],
     "ios": {
       "bundleIdentifier": "com.medusa.universal"
-    },
+    }, 
+    "android": {
+      
+    }, 
     "extra": {
       "eas": {
         "projectId": "67b76865-0bdd-4a76-a9e8-db716bd5bd2c"
