@@ -1,13 +1,12 @@
 {
-  "name": "universal-medusa",
+  "name": "sourcegoodfood-app",
   "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-native": "^0.69.5",
+    "@types/react": "~18.0.27",
     "eslint": "^8.21.0",
     "patch-package": "^7.0.2",
     "prettier": "^2.7.1",
@@ -29,7 +28,8 @@
     "react-native-svg": "13.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native-reanimated": "3.1.0"
+    "react-native-reanimated": "2.14.4",
+    "@types/react": "18.0.27"
   },
   "nohoist": [
     "**/expo-router",
@@ -39,11 +39,14 @@
     "**/packages/**/react-native-reanimated",
     "**/packages/**/react-native-reanimated/**",
     "**/@gorhom/bottom-sheet",
-    "**/@gorhom/bottom-sheet/**"
+    "**/@gorhom/bottom-sheet/**",
+    "**/react-native",
+    "**/react-native/**",
+    "**/expo",
+    "**/expo/**"
   ],
   "packageManager": "yarn@3.4.1",
   "dependencies": {
-    "@backpackapp-io/react-native-toast": "^0.10.0",
-    "expo": "^49.0.13"
+    "@backpackapp-io/react-native-toast": "^0.10.0"
   }
 }

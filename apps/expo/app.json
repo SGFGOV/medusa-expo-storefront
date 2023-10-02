@@ -1,23 +1,41 @@
 {
   "expo": {
-    "name": "universal-medusa-app",
-    "slug": "universal-medusa-app",
+    "name": "sourcegoodfood-app",
+    "slug": "sourcegoodfoo-app",
     "version": "1.0.0",
-    "scheme": "medusauniversal",
+    "scheme": "sourcegoodfood",
     "platforms": [
       "ios",
       "android"
     ],
+    "jsEngine": "hermes",
     "ios": {
-      "bundleIdentifier": "com.medusa.universal"
-    }, 
+      "bundleIdentifier": "com.sourcegoodfood.app"
+    },
     "android": {
-      
-    }, 
+      "package": "com.sourcegoodfood.app",
+      "versionCode": 1
+    },
     "extra": {
       "eas": {
-        "projectId": "67b76865-0bdd-4a76-a9e8-db716bd5bd2c"
+        "projectId": "7f36b88d-a043-4e73-9ccb-cb83761e4546"
       }
-    }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "33.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ],
+      "expo-router"
+    ]
   }
 }

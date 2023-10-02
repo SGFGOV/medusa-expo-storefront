@@ -15,7 +15,12 @@
       "distribution": "internal",
       "ios": {
         "resourceClass": "m-medium"
-      }
+      },
+      "env":{
+        "EXPO_PUBLIC_MEDUSA_BACKEND_URL":"https://alpha.sourcegoodfood.com",
+        "EXPO_USE_METRO_WORKSPACE_ROOT":"1"
+      },
+      
     },
     "preview": {
       "distribution": "internal",
@@ -36,7 +41,8 @@
     },
     "production": {
       "env":{
-        "EXPO_PUBLIC_MEDUSA_BACKEND_URL":"https://alpha.sourcegoodfood.com"
+        "EXPO_PUBLIC_MEDUSA_BACKEND_URL":"https://alpha.sourcegoodfood.com",
+        "EXPO_USE_METRO_WORKSPACE_ROOT":"1"
       },
       "ios": {
         "resourceClass": "m-medium"
